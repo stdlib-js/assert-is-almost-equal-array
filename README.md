@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isAlmostEqualArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal-array@deno/mod.js';
+import isAlmostEqualArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal-array@v0.1.0-deno/mod.js';
 ```
 
 #### isAlmostEqualArray( v1, v2, maxULP )
@@ -87,7 +87,7 @@ bool = isAlmostEqualArray( x, [ -1.0, 2.0 ], 1 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isAlmostEqualArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal-array@deno/mod.js';
+import isAlmostEqualArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal-array@v0.1.0-deno/mod.js';
 
 var x = [ 1.0, 2.0, 3.0 ];
 var y = [ 1.0, 2.0, 3.0 ];
