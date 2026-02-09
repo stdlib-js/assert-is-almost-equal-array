@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isAlmostEqualArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal-array@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-almost-equal-array/tags). For example,
+
+```javascript
 import isAlmostEqualArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal-array@v0.1.1-deno/mod.js';
 ```
 
@@ -87,7 +92,7 @@ bool = isAlmostEqualArray( x, [ -1.0, 2.0 ], 1 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isAlmostEqualArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal-array@v0.1.1-deno/mod.js';
+import isAlmostEqualArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-almost-equal-array@deno/mod.js';
 
 var x = [ 1.0, 2.0, 3.0 ];
 var y = [ 1.0, 2.0, 3.0 ];
